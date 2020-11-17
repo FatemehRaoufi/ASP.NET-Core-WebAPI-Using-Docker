@@ -18,8 +18,7 @@ services:
 #By default, the Docker extension does not do any volume mounting for debugging components. 
 #There's no need for it in .NET Core or Node.js, since the required components are built into the runtime. 
 #If your app requires volume mounts, specify them by using the volumes tag in the docker-compose*.yml files 
-# https://code.visualstudio.com/docs/containers/docker-compose     
-# testtt
+# https://code.visualstudio.com/docs/containers/docker-compose
 
 #.........................................................................................................
 # The Compose file provides a way to document and configure all of the application’s service dependencies
