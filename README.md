@@ -21,7 +21,7 @@ This project is a minimalistic RESTful API built with **ASP.NET Core 3.1**, inte
 ├── DotNetCoreInDocker.csproj
 ├── Program.cs
 └── Startup.cs
-
+```
 ## 🚀 How to Run
 
 ### Prerequisites
@@ -34,16 +34,20 @@ This project is a minimalistic RESTful API built with **ASP.NET Core 3.1**, inte
 
 Build and run the container:
 
-
+```
 docker build -t dotnetcoreindocker .
 docker run -d -p 5000:5000 dotnetcoreindocker
+```
 🔁 Or with Docker Compose
 
+```
 docker-compose up --build
+```
 Then open your browser and navigate to:
 
-
+```
 http://localhost:5000/weatherforecast
+```
 You should see a list of random weather forecast data in JSON format.
 
 🔧 Configuration
@@ -61,6 +65,7 @@ Based on official .NET Core 3.1 SDK and ASP.NET Core Runtime images
 Publishes a self-contained app in /app/publish
 
 📜 Sample Output
+```
 [
   {
     "date": "2025-04-24T00:00:00",
@@ -70,7 +75,7 @@ Publishes a self-contained app in /app/publish
   },
   ...
 ]
-
+```
 🔗 Resources
 
 ASP.NET Core Docker Docs
